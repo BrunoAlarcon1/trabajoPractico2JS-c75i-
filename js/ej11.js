@@ -1,7 +1,6 @@
 let nombres = [];
 let edades = [];
 
-
 for (let i = 1; i <= 3; i++) {
   let nombre = prompt(`Ingrese el nombre ${i}:`);
   let edad = parseInt(prompt(`Ingrese la edad de ${nombre}:`));
@@ -17,5 +16,3 @@ for (let i = 1; i <= 3; i++) {
 let posMayor = edades.indexOf(Math.max(...edades));
 
 document.write(`<p>La persona mayor es: ${nombres[posMayor]}</p>`);
-
-
